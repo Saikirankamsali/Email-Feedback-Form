@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="s1.css">
+</head>
+<body>
+  <div class="container">  
+    <form id="contact" action="mail.php" method="post">
+      <h3>Feedback</h3>
+      
+      <div class="row">
+
+        <div class="col">
+          <fieldset>
+            <input placeholder="First Name" name="firstName" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input type="text" name="msg" placeholder="Feedback" tabindex="5" required>
+          </fieldset>
+          
+            
+        </div>
+
+        
+
+         <!--  <fieldset>
+            <label for="file">Upload</label>
+            <input type="file" id="file" name="file">
+          </fieldset> -->
+        </div>
+     </div>
+
+        <!-- Error display -->
+        
+      <fieldset>
+        <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Submit Now</button>
+      </fieldset>
+      <div>
+         
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
